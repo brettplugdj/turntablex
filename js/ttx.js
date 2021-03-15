@@ -11,10 +11,10 @@ window.TTX = null;
 	// global resources
 	var IDLE_MAX = 15*60*1000;
 	var SYMBOLS = {
-		heart: '<img width="13" src="https://cdn4.iconfinder.com/data/icons/hodgepodge-free/32/logout_account_exit_door-128.png">',
-		up: '<img width="13" src="https://cdn4.iconfinder.com/data/icons/hodgepodge-free/32/login_account_enter_door-128.png">',
-		down: '<img width="13" src="https://cdn4.iconfinder.com/data/icons/hodgepodge-free/32/bar_chart_graph_analysis-128.png">',
-		computer: '<img width="15" src="https://cdn4.iconfinder.com/data/icons/hodgepodge-free/32/basket_empty_shop_buy-128.png">'
+		heart: '<img width="13" src="http://turntablex.com/images/heart.png">',
+		up: '<img width="13" src="http://turntablex.com/images/up.png">',
+		down: '<img width="13" src="http://turntablex.com/images/down.png">',
+		computer: '<img width="15" src="http://turntablex.com/images/computer.png">'
 	};
 	var STICKER_MAP = {
 		'4f873b32af173a2903816e52': {
@@ -660,7 +660,7 @@ window.TTX = null;
 
 	    }
 	    // reposition the stage, playlist, chat, and guestlist
-	    var main_container = $('#outer .roomView');
+	    /*var main_container = $('#outer .roomView');
 	    var right_panel = $('#right-panel');
 	    var stage = $('#floor-div').parent();
 	    var stage_height = stage.height();
@@ -714,7 +714,7 @@ window.TTX = null;
 	    changeClass('.guest-list-container .guests .guest',{width:205,'padding-right':'0px','padding-top':'1px','padding-bottom':'1px'});
 	    changeClass('#menuh',{left:'40px'});
 	    if ($('#ttx_logo').length === 0){
-	    	$('.header .logo').after('<div id="ttx_logo" style="left:178px; top: 12.5px; width: 38px; height: 36px; position:absolute; background-size: 38px 36px; background-image:url(https://cdn4.iconfinder.com/data/icons/hodgepodge-free/32/bell_ring_notification_alarm-128.png);"/>');
+	    	$('.header .logo').after('<div id="ttx_logo" style="left:178px; top: 12.5px; width: 38px; height: 36px; position:absolute; background-size: 38px 36px; background-image:url(http://turntablex.com/images/turntableX.png);"/>');
             }
             if ($('#ttx_laptopMenu').length === 0){
 		updateLaptops();
@@ -754,7 +754,7 @@ window.TTX = null;
             }
             else{
             	updateLaptops();
-            }
+            }*/
         }
         function updateLaptops(){
         	var laptops = settings.laptop.stickers.animations;

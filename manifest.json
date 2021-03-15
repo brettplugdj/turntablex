@@ -19,7 +19,7 @@
 			  "https://turntable.fm/terms",
 			  "https://turntable.fm/static/*"
 			],
-			"js": ["js/jquery.min.js", "js/ttx.js", "chrome/initialize.js"],
+			"js": ["chrome/initialize.js", "js/jquery.min.js", "js/ttx.js"],
 			"run_at": "document_idle"
 		}
 	]
