@@ -1,0 +1,26 @@
+{
+	"name": "Turntable X",
+   	"version": "0.0.0.0",
+		"manifest_version": 2,
+	"description": "A minimalistic and colorful Turntable restyling and redesigning.",
+   	"permissions":[
+		"https://turntable.fm/"
+	],
+	"content_scripts":[
+		{
+			"matches": ["https://turntable.fm/*"],
+			"exclude_globs": [
+			  "https://turntable.fm/",
+			  "https://turntable.fm/lobby",
+			  "https://turntable.fm/about",
+			  "https://turntable.fm/jobs",
+			  "https://turntable.fm/privacy",
+			  "https://turntable.fm/copyright",
+			  "https://turntable.fm/terms",
+			  "https://turntable.fm/static/*"
+			],
+			"js": ["js/jquery.min.js", "js/ttx.js", "chrome/initialize.js"],
+			"run_at": "document_idle"
+		}
+	]
+}
